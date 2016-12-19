@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B375E7A11E03ED3D001D354B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B375E7A01E03ED3D001D354B /* Login.swift */; };
+		B375E7A31E03F1AE001D354B /* Save.png in Resources */ = {isa = PBXBuildFile; fileRef = B375E7A21E03F1AE001D354B /* Save.png */; };
+		B375E7A51E03F2DC001D354B /* letsgo.png in Resources */ = {isa = PBXBuildFile; fileRef = B375E7A41E03F2DC001D354B /* letsgo.png */; };
+		B375E7A71E04A1BB001D354B /* Nav2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B375E7A61E04A1BB001D354B /* Nav2.swift */; };
+		B375E7A91E04A4BE001D354B /* TripTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B375E7A81E04A4BE001D354B /* TripTable.swift */; };
+		B375E7AB1E04B993001D354B /* TripClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B375E7AA1E04B993001D354B /* TripClass.swift */; };
+		B375E7AD1E04BD52001D354B /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = B375E7AC1E04BD52001D354B /* loading.png */; };
+		B375E7AF1E04BF30001D354B /* ManualCheckin.png in Resources */ = {isa = PBXBuildFile; fileRef = B375E7AE1E04BF30001D354B /* ManualCheckin.png */; };
+		B375E7B11E04C8AE001D354B /* TripMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B375E7B01E04C8AE001D354B /* TripMakerViewController.swift */; };
+		B375E7B31E04C9BE001D354B /* StudentProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B375E7B21E04C9BE001D354B /* StudentProfile.swift */; };
+		B375E7B51E04CA3D001D354B /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = B375E7B41E04CA3D001D354B /* Student.swift */; };
+		B375E7C21E04CAC9001D354B /* Student0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B375E7B61E04CAC9001D354B /* Student0.jpg */; };
+		B375E7C31E04CAC9001D354B /* Student1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B375E7B71E04CAC9001D354B /* Student1.jpg */; };
+		B375E7C41E04CAC9001D354B /* Student2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B375E7B81E04CAC9001D354B /* Student2.jpg */; };
+		B375E7C51E04CAC9001D354B /* Student3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B375E7B91E04CAC9001D354B /* Student3.jpg */; };
+		B375E7C61E04CAC9001D354B /* Student4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B375E7BA1E04CAC9001D354B /* Student4.jpeg */; };
+		B375E7C71E04CAC9001D354B /* Student5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B375E7BB1E04CAC9001D354B /* Student5.jpeg */; };
+		B375E7C81E04CAC9001D354B /* Student6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B375E7BC1E04CAC9001D354B /* Student6.jpeg */; };
+		B375E7C91E04CAC9001D354B /* Student7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B375E7BD1E04CAC9001D354B /* Student7.jpeg */; };
+		B375E7CA1E04CAC9001D354B /* Student8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B375E7BE1E04CAC9001D354B /* Student8.jpeg */; };
+		B375E7CB1E04CAC9001D354B /* Student9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B375E7BF1E04CAC9001D354B /* Student9.jpeg */; };
+		B375E7CC1E04CAC9001D354B /* Student10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B375E7C01E04CAC9001D354B /* Student10.jpeg */; };
+		B375E7CD1E04CAC9001D354B /* Student11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B375E7C11E04CAC9001D354B /* Student11.jpeg */; };
+		B375E7CF1E04CB0F001D354B /* StudentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B375E7CE1E04CB0F001D354B /* StudentList.swift */; };
+		B375E7D11E04CC20001D354B /* locate.png in Resources */ = {isa = PBXBuildFile; fileRef = B375E7D01E04CC20001D354B /* locate.png */; };
+		B375E7D31E04CE18001D354B /* tripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B375E7D21E04CE18001D354B /* tripCell.swift */; };
+		B375E7D51E04D369001D354B /* TripScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B375E7D41E04D369001D354B /* TripScreen.swift */; };
+		B375E7D71E04DCCE001D354B /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B375E7D61E04DCCE001D354B /* StudentCell.swift */; };
 		B388BEDA1DED0149009B2BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B388BED91DED0149009B2BF1 /* AppDelegate.swift */; };
 		B388BEDC1DED0149009B2BF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B388BEDB1DED0149009B2BF1 /* ViewController.swift */; };
 		B388BEDF1DED0149009B2BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B388BEDD1DED0149009B2BF1 /* Main.storyboard */; };
@@ -15,6 +43,11 @@
 		B388BEE71DED0149009B2BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B388BEE51DED0149009B2BF1 /* LaunchScreen.storyboard */; };
 		B388BEF21DED0149009B2BF1 /* fieldtrip1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B388BEF11DED0149009B2BF1 /* fieldtrip1Tests.swift */; };
 		B388BEFD1DED0149009B2BF1 /* fieldtrip1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B388BEFC1DED0149009B2BF1 /* fieldtrip1UITests.swift */; };
+		B388BF0B1DED0ABD009B2BF1 /* StudentLayouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B388BF0A1DED0ABD009B2BF1 /* StudentLayouts.swift */; };
+		B3AA55AB1E075641007BDB63 /* expandableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA55AA1E075641007BDB63 /* expandableVC.swift */; };
+		B3AA55AD1E0756ED007BDB63 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA55AC1E0756ED007BDB63 /* CustomCell.swift */; };
+		B3AA55AF1E0781AA007BDB63 /* showdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA55AE1E0781AA007BDB63 /* showdown.swift */; };
+		B3AA55B11E07837B007BDB63 /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA55B01E07837B007BDB63 /* CheckInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +68,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B375E7A01E03ED3D001D354B /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		B375E7A21E03F1AE001D354B /* Save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Save.png; sourceTree = "<group>"; };
+		B375E7A41E03F2DC001D354B /* letsgo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letsgo.png; sourceTree = "<group>"; };
+		B375E7A61E04A1BB001D354B /* Nav2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nav2.swift; sourceTree = "<group>"; };
+		B375E7A81E04A4BE001D354B /* TripTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripTable.swift; sourceTree = "<group>"; };
+		B375E7AA1E04B993001D354B /* TripClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripClass.swift; sourceTree = "<group>"; };
+		B375E7AC1E04BD52001D354B /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		B375E7AE1E04BF30001D354B /* ManualCheckin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ManualCheckin.png; sourceTree = "<group>"; };
+		B375E7B01E04C8AE001D354B /* TripMakerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripMakerViewController.swift; sourceTree = "<group>"; };
+		B375E7B21E04C9BE001D354B /* StudentProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentProfile.swift; sourceTree = "<group>"; };
+		B375E7B41E04CA3D001D354B /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		B375E7B61E04CAC9001D354B /* Student0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Student0.jpg; sourceTree = "<group>"; };
+		B375E7B71E04CAC9001D354B /* Student1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Student1.jpg; sourceTree = "<group>"; };
+		B375E7B81E04CAC9001D354B /* Student2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Student2.jpg; sourceTree = "<group>"; };
+		B375E7B91E04CAC9001D354B /* Student3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Student3.jpg; sourceTree = "<group>"; };
+		B375E7BA1E04CAC9001D354B /* Student4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Student4.jpeg; sourceTree = "<group>"; };
+		B375E7BB1E04CAC9001D354B /* Student5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Student5.jpeg; sourceTree = "<group>"; };
+		B375E7BC1E04CAC9001D354B /* Student6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Student6.jpeg; sourceTree = "<group>"; };
+		B375E7BD1E04CAC9001D354B /* Student7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Student7.jpeg; sourceTree = "<group>"; };
+		B375E7BE1E04CAC9001D354B /* Student8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Student8.jpeg; sourceTree = "<group>"; };
+		B375E7BF1E04CAC9001D354B /* Student9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Student9.jpeg; sourceTree = "<group>"; };
+		B375E7C01E04CAC9001D354B /* Student10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Student10.jpeg; sourceTree = "<group>"; };
+		B375E7C11E04CAC9001D354B /* Student11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Student11.jpeg; sourceTree = "<group>"; };
+		B375E7CE1E04CB0F001D354B /* StudentList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentList.swift; sourceTree = "<group>"; };
+		B375E7D01E04CC20001D354B /* locate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locate.png; sourceTree = "<group>"; };
+		B375E7D21E04CE18001D354B /* tripCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tripCell.swift; sourceTree = "<group>"; };
+		B375E7D41E04D369001D354B /* TripScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripScreen.swift; sourceTree = "<group>"; };
+		B375E7D61E04DCCE001D354B /* StudentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
 		B388BED61DED0149009B2BF1 /* fieldtrip1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fieldtrip1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B388BED91DED0149009B2BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B388BEDB1DED0149009B2BF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +110,11 @@
 		B388BEF81DED0149009B2BF1 /* fieldtrip1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fieldtrip1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B388BEFC1DED0149009B2BF1 /* fieldtrip1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fieldtrip1UITests.swift; sourceTree = "<group>"; };
 		B388BEFE1DED0149009B2BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B388BF0A1DED0ABD009B2BF1 /* StudentLayouts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentLayouts.swift; sourceTree = "<group>"; };
+		B3AA55AA1E075641007BDB63 /* expandableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = expandableVC.swift; sourceTree = "<group>"; };
+		B3AA55AC1E0756ED007BDB63 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		B3AA55AE1E0781AA007BDB63 /* showdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showdown.swift; sourceTree = "<group>"; };
+		B3AA55B01E07837B007BDB63 /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +145,18 @@
 		B388BECD1DED0149009B2BF1 = {
 			isa = PBXGroup;
 			children = (
+				B375E7B61E04CAC9001D354B /* Student0.jpg */,
+				B375E7B71E04CAC9001D354B /* Student1.jpg */,
+				B375E7B81E04CAC9001D354B /* Student2.jpg */,
+				B375E7B91E04CAC9001D354B /* Student3.jpg */,
+				B375E7BA1E04CAC9001D354B /* Student4.jpeg */,
+				B375E7BB1E04CAC9001D354B /* Student5.jpeg */,
+				B375E7BC1E04CAC9001D354B /* Student6.jpeg */,
+				B375E7BD1E04CAC9001D354B /* Student7.jpeg */,
+				B375E7BE1E04CAC9001D354B /* Student8.jpeg */,
+				B375E7BF1E04CAC9001D354B /* Student9.jpeg */,
+				B375E7C01E04CAC9001D354B /* Student10.jpeg */,
+				B375E7C11E04CAC9001D354B /* Student11.jpeg */,
 				B388BED81DED0149009B2BF1 /* fieldtrip1 */,
 				B388BEF01DED0149009B2BF1 /* fieldtrip1Tests */,
 				B388BEFB1DED0149009B2BF1 /* fieldtrip1UITests */,
@@ -100,12 +178,33 @@
 			isa = PBXGroup;
 			children = (
 				B388BED91DED0149009B2BF1 /* AppDelegate.swift */,
+				B375E7CE1E04CB0F001D354B /* StudentList.swift */,
+				B375E7D61E04DCCE001D354B /* StudentCell.swift */,
 				B388BEDB1DED0149009B2BF1 /* ViewController.swift */,
+				B375E7D01E04CC20001D354B /* locate.png */,
+				B375E7A21E03F1AE001D354B /* Save.png */,
+				B375E7AE1E04BF30001D354B /* ManualCheckin.png */,
 				B388BEDD1DED0149009B2BF1 /* Main.storyboard */,
+				B3AA55B01E07837B007BDB63 /* CheckInViewController.swift */,
+				B3AA55AE1E0781AA007BDB63 /* showdown.swift */,
+				B3AA55AA1E075641007BDB63 /* expandableVC.swift */,
+				B3AA55AC1E0756ED007BDB63 /* CustomCell.swift */,
+				B375E7AA1E04B993001D354B /* TripClass.swift */,
+				B375E7A81E04A4BE001D354B /* TripTable.swift */,
+				B375E7D41E04D369001D354B /* TripScreen.swift */,
+				B375E7D21E04CE18001D354B /* tripCell.swift */,
+				B375E7A61E04A1BB001D354B /* Nav2.swift */,
+				B375E7AC1E04BD52001D354B /* loading.png */,
+				B375E7A41E03F2DC001D354B /* letsgo.png */,
+				B375E7A01E03ED3D001D354B /* Login.swift */,
+				B388BF0A1DED0ABD009B2BF1 /* StudentLayouts.swift */,
 				B388BEE31DED0149009B2BF1 /* Assets.xcassets */,
 				B388BEE51DED0149009B2BF1 /* LaunchScreen.storyboard */,
 				B388BEE81DED0149009B2BF1 /* Info.plist */,
 				B388BEE01DED0149009B2BF1 /* fieldtrip1.xcdatamodeld */,
+				B375E7B01E04C8AE001D354B /* TripMakerViewController.swift */,
+				B375E7B21E04C9BE001D354B /* StudentProfile.swift */,
+				B375E7B41E04CA3D001D354B /* Student.swift */,
 			);
 			path = fieldtrip1;
 			sourceTree = "<group>";
@@ -235,9 +334,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B375E7CA1E04CAC9001D354B /* Student8.jpeg in Resources */,
 				B388BEE71DED0149009B2BF1 /* LaunchScreen.storyboard in Resources */,
+				B375E7C71E04CAC9001D354B /* Student5.jpeg in Resources */,
+				B375E7C31E04CAC9001D354B /* Student1.jpg in Resources */,
+				B375E7CB1E04CAC9001D354B /* Student9.jpeg in Resources */,
 				B388BEE41DED0149009B2BF1 /* Assets.xcassets in Resources */,
+				B375E7C21E04CAC9001D354B /* Student0.jpg in Resources */,
+				B375E7C61E04CAC9001D354B /* Student4.jpeg in Resources */,
 				B388BEDF1DED0149009B2BF1 /* Main.storyboard in Resources */,
+				B375E7A51E03F2DC001D354B /* letsgo.png in Resources */,
+				B375E7C81E04CAC9001D354B /* Student6.jpeg in Resources */,
+				B375E7C51E04CAC9001D354B /* Student3.jpg in Resources */,
+				B375E7AD1E04BD52001D354B /* loading.png in Resources */,
+				B375E7D11E04CC20001D354B /* locate.png in Resources */,
+				B375E7CD1E04CAC9001D354B /* Student11.jpeg in Resources */,
+				B375E7AF1E04BF30001D354B /* ManualCheckin.png in Resources */,
+				B375E7C41E04CAC9001D354B /* Student2.jpg in Resources */,
+				B375E7C91E04CAC9001D354B /* Student7.jpeg in Resources */,
+				B375E7CC1E04CAC9001D354B /* Student10.jpeg in Resources */,
+				B375E7A31E03F1AE001D354B /* Save.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +378,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3AA55AF1E0781AA007BDB63 /* showdown.swift in Sources */,
+				B3AA55B11E07837B007BDB63 /* CheckInViewController.swift in Sources */,
+				B375E7D71E04DCCE001D354B /* StudentCell.swift in Sources */,
+				B375E7A71E04A1BB001D354B /* Nav2.swift in Sources */,
+				B3AA55AD1E0756ED007BDB63 /* CustomCell.swift in Sources */,
 				B388BEDC1DED0149009B2BF1 /* ViewController.swift in Sources */,
+				B375E7B11E04C8AE001D354B /* TripMakerViewController.swift in Sources */,
+				B375E7CF1E04CB0F001D354B /* StudentList.swift in Sources */,
+				B375E7B51E04CA3D001D354B /* Student.swift in Sources */,
+				B375E7B31E04C9BE001D354B /* StudentProfile.swift in Sources */,
+				B375E7A91E04A4BE001D354B /* TripTable.swift in Sources */,
+				B375E7A11E03ED3D001D354B /* Login.swift in Sources */,
 				B388BEE21DED0149009B2BF1 /* fieldtrip1.xcdatamodeld in Sources */,
+				B3AA55AB1E075641007BDB63 /* expandableVC.swift in Sources */,
 				B388BEDA1DED0149009B2BF1 /* AppDelegate.swift in Sources */,
+				B375E7D51E04D369001D354B /* TripScreen.swift in Sources */,
+				B388BF0B1DED0ABD009B2BF1 /* StudentLayouts.swift in Sources */,
+				B375E7D31E04CE18001D354B /* tripCell.swift in Sources */,
+				B375E7AB1E04B993001D354B /* TripClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +641,7 @@
 				B388BF031DED0149009B2BF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B388BF041DED0149009B2BF1 /* Build configuration list for PBXNativeTarget "fieldtrip1Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +650,7 @@
 				B388BF061DED0149009B2BF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B388BF071DED0149009B2BF1 /* Build configuration list for PBXNativeTarget "fieldtrip1UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +659,7 @@
 				B388BF091DED0149009B2BF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
