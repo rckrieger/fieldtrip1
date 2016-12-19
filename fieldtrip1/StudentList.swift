@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StudentList: UIViewController {
+class StudentList: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     let schoolClass = [Student(nameHere: "Ada", lastSeenDate: NSDate.init(), phoneNum2: "123 - 456 - 780", here: true, ImageName: "Student0"),
                        Student(nameHere: "Bill", lastSeenDate: NSDate.init(), phoneNum2: "123 - 456 - 780", here: true, ImageName: "Student1"),
@@ -27,12 +27,9 @@ class StudentList: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.reloadData()
+
         
-        // Uncomment the following line to preserve selection between presentations
-        //self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
     
     override func didReceiveMemoryWarning() {
@@ -53,7 +50,7 @@ class StudentList: UIViewController {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "customStudentCell", for: indexPath) as? StudentCell
         // Configure the cell...
-        cell?.hereLabel.text = (schoolClass[indexPath.row].on ? "Here" : "Absent")
+        cell?.present.text = (schoolClass[indexPath.row].on ? "Here" : "Absent")
         cell?.name.text = schoolClass[indexPath.row].name
         return cell!
     }
@@ -61,7 +58,7 @@ class StudentList: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         
-        if segue.identifier == "mySegue" {
+        if segue.identifier == "toDetail" {
             let destVC = segue.destination as? StudentProfile
             let selectedIndexPath = tableView.indexPathForSelectedRow
             destVC?.dataFromTable = schoolClass[(selectedIndexPath?.row)!]

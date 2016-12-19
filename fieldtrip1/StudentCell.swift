@@ -11,7 +11,8 @@ import UIKit
 class StudentCell: UITableViewCell {
     
     @IBOutlet weak var name: UILabel!
-    @IBOutlet weak var hereLabel: UILabel!
+    @IBOutlet weak var present: UILabel!
+  
     
     override func awakeFromNib() {
         super.awakeFromNib()

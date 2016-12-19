@@ -15,11 +15,12 @@ class StudentProfile: UIViewController {
     @IBOutlet weak var passedNameLabel: UILabel!
     
     @IBOutlet weak var studentImage: UIImageView!
+
     
     @IBOutlet weak var lastSeenLabel: UILabel!
     
-    @IBOutlet weak var phoneNumberLabel: UILabel!
     
+    @IBOutlet weak var topbarname: UINavigationItem!
     
     var placeHolder = 0
     
@@ -29,6 +30,7 @@ class StudentProfile: UIViewController {
         passedNameLabel.text = dataFromTable?.name
         studentImage.image = dataFromTable?.picture
         lastSeenLabel.text = dataFromTable?.lastSeen?.description
+        topbarname.title = dataFromTable?.name
         
     }
   

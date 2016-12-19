@@ -17,6 +17,10 @@ class TripScreen: UIViewController {
     @IBOutlet weak var location: UILabel!
     @IBOutlet weak var timeRange: UILabel!
     @IBOutlet weak var map: MKMapView!
+    @IBOutlet weak var people: UIButton!
+    @IBOutlet weak var info: UIButton!
+    
+    @IBOutlet weak var checkin: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         address.text = dataFromTable?.place
